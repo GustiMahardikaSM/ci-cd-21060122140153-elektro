@@ -16,9 +16,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 20
 
-      - name: Create content for GitHub Pages
+      - name: Build project
         run: |
           mkdir -p out
           echo "Hello from CI/CD Deployment" > out/index.html
@@ -26,5 +26,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.tugas_dldc  }}
           publish_dir: ./out
