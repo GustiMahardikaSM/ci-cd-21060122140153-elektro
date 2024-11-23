@@ -33,4 +33,4 @@ GitHub Pages akan menggunakan branch `gh-pages` sebagai sumber deployment, sehin
 ## **Link Hasil Deployment**
 
 Aplikasi yang telah dideploy dapat diakses melalui GitHub Pages dengan menggunakan link berikut:  
-[https://gustimahardikasn.github.io/ci-cd-21060122140153-elektro/](https://gustimahardikasn.github.io/ci-cd-21060122140153-elektro/)
+https://gustimahardikasm.github.io/ci-cd-21060122140153-elektro/
