@@ -4,7 +4,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jest"
-    "build": "mkdir -p out && echo 'Hello from CI/CD Deployment' > out/index.html"
   },
   "keywords": [],
   "author": "",
