@@ -1,10 +1,9 @@
 {
-  "name": "ci-cd-21060122120010-elektro",
+  "name": "ci-cd-21060122140153-elektro",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "build": "mkdir -p out && echo 'Hello from CI/CD Deployment' > out/index.html"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
